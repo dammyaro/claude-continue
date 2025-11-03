@@ -1,0 +1,32 @@
+{
+  "name": "continue-commands",
+  "version": "1.0.0",
+  "description": "Resume work commands for Claude Code - pick up where you left off",
+  "author": "dammyaro",
+  "repository": "https://github.com/dammyaro/claude-continue-commands",
+  "license": "MIT",
+  "keywords": [
+    "productivity",
+    "workflow",
+    "git",
+    "resume",
+    "context-switching"
+  ],
+  "commands": [
+    {
+      "name": "continue",
+      "path": "commands/continue.md",
+      "description": "Resume work from where you left off"
+    },
+    {
+      "name": "continue-pr",
+      "path": "commands/continue-pr.md",
+      "description": "Continue work on current PR or branch"
+    },
+    {
+      "name": "morning",
+      "path": "commands/morning.md",
+      "description": "Morning routine - catch up and continue"
+    }
+  ]
+}
